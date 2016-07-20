@@ -1,0 +1,10 @@
+# misc
+node_modules
+npm-debug.log
+typings
+*.map
+*.js
+*.d.ts
+
+# OS X
+.DS_Store

@@ -1,0 +1,12 @@
+<span #taContainer [ngStyle]="style" [class]="styleClass">
+  <input #taInput type="text" [ngStyle]="inputStyle" [ngClass]="inputStyleClass"
+         [value]="value" [placeholder]="placeholder" (input)="onInput($event)"
+         (blur)="onModelTouched()" (keydown)="onKeyDown($event)">
+  <div #taDropdown id="suggestion-panel" *ngIf="suggestions.length > 0">
+    <ul #taList id="suggestions">
+      <li #taItem *ngFor="let item of suggestions" (click)="onItemSelect(item)">
+        {{item}}
+      </li>
+    </ul>
+  </div>
+</span>
