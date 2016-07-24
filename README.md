@@ -1,7 +1,7 @@
 # Yet Another Typeahead for Angular2
 
-A simple typeahead implementation which allows for autocompletion of input
-values separated by whitespace.
+A simple typeahead implementation which provides autocompletion of input values
+separated by whitespace.
 
 [![Build Status](https://travis-ci.org/jasondana/ng2-yata.svg?branch=master)](https://travis-ci.org/jasondana/ng2-yata)
 
