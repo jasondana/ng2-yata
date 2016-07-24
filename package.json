@@ -1,9 +1,9 @@
 {
   "name": "ng2-yata",
-  "version": "0.1.0",
   "description": "Yet Another Typeahead for Angular2",
   "scripts": {
-    "prepublish": "typings install && tsc"
+    "prepublish": "typings install && tsc",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",

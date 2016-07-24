@@ -3,6 +3,8 @@
 A simple typeahead implementation which allows for autocompletion of input
 values separated by whitespace.
 
+[![Build Status](https://travis-ci.org/jasondana/ng2-yata.svg?branch=master)](https://travis-ci.org/jasondana/ng2-yata)
+
 ![demo](http://i.imgur.com/geTk3dk.gif)
 
 ## Install
